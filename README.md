@@ -3,7 +3,7 @@ Nodejs ile express kütüphanesi kullanılarak oluşturulmuş bir sunucu uygulam
 
 ## 😒 Neden buna ihtiyacım var?
 Bu uygulamayı chrome eklentisi olan "SD Enjektörü" için oluşturdum. "SD Enjektörü" eklentisi istenilen sayfaya istenilen javascript dosyasını enjekte eder. Fakat chrome tarayıcısı eklentileri izole bir alanda çalışmasına izin vererek işlem yapacağı sitelerde bazı kısıtlamalar getirir. İşbu eklentininde script dosyasını enjecte edebilmesi için localhost üzerinde olması gerekir.
-İşte bu yüzden basicserver'a ihtiyacımız var! BasicServer çalıştıktan sonra http://localhost aktif olur ve public klasörüne yerleştirilen javascript dosyasına bu adresten ulaşılabilir.
+İşte bu yüzden basicserver'a ihtiyacımız var! BasicServer çalışırken http://localhost aktif olur ve eklenti public klasörüne yerleştirilen javascript dosyasına ulaşabilir.
 
 ## 😎 Nasıl yapılır?
 Mesela github.com anasayfasına girdiğinizde "selam" yazılı uyarı verelim.
@@ -13,7 +13,7 @@ Mesela github.com anasayfasına girdiğinizde "selam" yazılı uyarı verelim.
 - Server.exe'nin bulunduğu konumda public klasörü oluşacak. Bu klasöre test.js dosyası oluşturun.
 - test.js dosyasını not defteriyle açın ve şunu yazıp kaydedin:
 ```yaml
-- alert("selam");
+alert("selam");
 ```
 - Chrome eklentisini yükleyin.
 - Chrome tarayıcısında sol üstte bulunan [<img src="https://raw.githubusercontent.com/Raymo111/Raymo111/master/socials/linkedin.png" height="40em">] simgeli eklentiye sağ tıklayın ve seçenekleri seçin.
