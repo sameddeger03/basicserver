@@ -2,8 +2,8 @@
 Nodejs ile express kütüphanesi kullanılarak oluşturulmuş bir sunucu uygulaması.
 
 ## 😒 Neden buna ihtiyacım var?
-Bu uygulamayı chrome eklentisi olan "SD Enjektörü" için oluşturdum. "SD Enjektörü" eklentisi istenilen sayfaya istenilen javascript dosyasını enjekte eder. Fakat chrome tarayıcısı eklentileri izole bir alanda çalışmasına izin vererek işlem yapacağı sitelerde bazı kısıtlamalar getirir. İşbu eklentininde script dosyasını enjecte edebilmesi için localhost üzerinde olması gerekir.
-İşte bu yüzden basicserver'a ihtiyacımız var! BasicServer çalışırken http://localhost aktif olur ve eklenti public klasörüne yerleştirilen javascript dosyasına ulaşabilir.
+Bu uygulamayı chrome eklentisi olan "SD Enjektörü" için oluşturdum. "SD Enjektörü" eklentisi istenilen sayfaya istenilen javascript dosyasını enjekte eder. Fakat chrome tarayıcısı eklentilerin izole bir alanda çalışmasına izin vererek işlem yapacağı sitelere müdahelelerde bazı kısıtlamalar getirir. İşbu eklentininde script dosyasını enjecte edebilmesi için scripttin localhost üzerinde olması gerekir.
+İşte bu yüzden BasicServer'a ihtiyacımız var! BasicServer çalışırken http://localhost aktif olur ve eklenti public klasörüne yerleştirilen javascript dosyasını enjekte edebilir.
 
 ## 😎 Nasıl yapılır?
 Mesela github.com anasayfasına girdiğinizde "selam" yazılı uyarı verelim.
