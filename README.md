@@ -8,7 +8,7 @@ Bu uygulamayı chrome eklentisi olan "SD Enjektörü" için oluşturdum. "SD Enj
 ## 😎 Nasıl yapılır?
 Mesela github.com anasayfasına girdiğinizde "selam" yazılı uyarı verelim.
 
-- Server.exe <a href="https://github.com/sameddeger03/basicserver/releases/download/server/server.exe">indirin</a>.
+- Server.exe <a href="https://github.com/sameddeger03/basicserver/releases/download/first/Server.exe">indirin</a>.
 - Server.exe'yi çalıştırın ve şu mesajı alın: "Sunucu http://localhost:80 adresinde çalışıyor" (pencereyi kapatmayın)
 - Server.exe'nin bulunduğu konumda public klasörü oluşacak. Bu klasöre test.js dosyası oluşturun.
 - test.js dosyasını not defteriyle açın ve şunu yazıp kaydedin:
