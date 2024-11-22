@@ -15,7 +15,7 @@ Mesela github.com anasayfasına girdiğinizde "selam" yazılı uyarı verelim.
 ```yaml
 alert("selam");
 ```
-- Chrome eklentisini yükleyin.
+- <a href="https://chromewebstore.google.com/detail/sd-enjector/aedbiafpmgifgpacigogngjgkbkgkfji">Chrome eklentisini yükleyin.</a>
 - Chrome tarayıcısında sol üstte bulunan [<img src="https://raw.githubusercontent.com/sameddeger03/basicserver/master/48.png" height="32px" align="center">] simgeli eklentiye sağ tıklayın ve seçenekleri seçin.
 - "SD Enjectorler" sayfası açılacak. "Yeni enjetör ekle" butonuna basın.
 - Hedef URL girişine "github.com" yazın.
